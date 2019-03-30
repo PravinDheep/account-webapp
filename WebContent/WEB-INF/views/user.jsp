@@ -4,16 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Home Page</title>
+<title>Insert title here</title>
 </head>
 <body>
-	<h1>Hello World</h1>
-	<p> ${serverTime} </p>
-	
-	<form action="user" method="post" >
-		<input type="text" name="userName" id="userName"/>
-		<input type="submit" value="Login">
-	</form>
-	
+	<h1>Hi ${userName}</h1>
 </body>
 </html>
